@@ -36,3 +36,26 @@ print(j)
 #Represents numbers that do not exist; like trying to recall the 11th number in a 10 number sequence
 NULL
 #Represents an empty object
+switchero.if.then <- function(x) {
+  if (x == "a")
+    "cat"
+  else if (x == "b")
+    "human"
+  else if (x == "c")
+    "dog"
+  else
+    "bird"
+}
+k<-"kelly"
+l<-as.integer(15)
+m<-as.numeric(16.73)
+m
+typeof(m)
+height<-as.factor(c("tall","short"))
+n<-array(data=1:24,dim=c(4,3,2))
+n
+o<-matrix(data=1:10, nrow=5, ncol=,dimnames=list(c("r1","r2","r3","r4","r5"),c("c1","c2")))
+o
+#A matrix can only have two dimensions while an array can have many dimensions
+o[4,1]
+n[2,2,2]
