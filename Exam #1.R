@@ -59,3 +59,9 @@ o
 #A matrix can only have two dimensions while an array can have many dimensions
 o[4,1]
 n[2,2,2]
+load("C:/Users/George/Desktop/Intro to R/test1_data/test1_data.Rdata")
+test1_data.Rdata
+d
+nrow(d)
+ncol(d)
+str(transect)
